@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bey's World</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--------------Header-------------->
+    <div id="pre-loader"></div>
+    <!--------------Header-------------->
+
+    <!--------------Header-------------->
+    <header class="header">
+      <div class="logo">
+        <a href="#"><h1>abbey ola.</h1></a>
+      </div>
+
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="pn"
+        aria-expanded="false"
+      >
+        <span class="sr-only"></span>
+      </button>
+
+      <nav>
+        <ul id="pn" data-visible="false" class="pn-flex">
+          <li><a href="#about">about</a></li>
+          <li><a href="#secPortfolio">Portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--------------Header-------------->
+    <!----------------------Hero--------------------------->
+    <section id="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="content">
+            <h2>Hi There I'm Abbey And I'm a</h2>
+            <h1>Frontend Developer</h1>
+            <h3>Leave Your Digital Advancement In Safe Hands.</h3>
+            <a href="mailto:abbeyola97@gmail.com" class="cta"
+              >connect with me</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------Hero-------------------------->
+
+    <!-----------------------About---------------->
+    <section class="about">
+      <div id="about">
+        <div class="main">
+          <div class="about-text">
+            <h2>About Me</h2>
+            <h5>Developer & Designer</h5>
+            <p>
+              "I'm a FrontEnd Developer and Designer with a rather strong coding
+              and programming skill, i am fluent in over 4 different programming
+              languages, my portfolio includes a couple of projects that
+              demonstrate my skills in web development and design."
+            </p>
+            <a href="./img/Resume.jpg" class="dbtn">View CV</a>
+          </div>
+          <div class="distortion"></div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------End About-------------->
+
+    <!---------------------------Project------------->
+    <section id="secPortfolio" class="portfolioSec">
+      <div class="port-container">
+        <div class="section-title">
+          <h1>Portfolio</h1>
+        </div>
+        <div class="portfolioContents">
+          <h2>My works</h2>
+        </div>
+        <div>
+          <div class="portfolioGallery">
+            <div class="card">
+              <div class="imgbox">
+                <img
+                  src="./img/reactp.png"
+                  alt=""
+                  width="380px"
+                  height="280px"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgbox">
+                <img
+                  src="./img/workk.png"
+                  alt=""
+                  width="350px"
+                  height="200px"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgbox">
+                <img
+                  src="./img/work3.png"
+                  alt=""
+                  width="350px"
+                  height="200px"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgbox">
+                <img src="./img/3d.jpg" alt="" width="350px" height="200px" />
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgbox">
+                <img
+                  src="./img/eatery.png"
+                  alt=""
+                  width="350px"
+                  height="200px"
+                />
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="imgbox">
+                <img
+                  src="./img/work1.png"
+                  alt=""
+                  width="350px"
+                  height="200px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------End Project----------->
+
+    <!-----------------------------Contact----------->
+    <section id="contact">
+      <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+          <h2>Contact</h2>
+          <p>Allow me Take your web presence to the next level.</p>
+          <input type="text" class="field" placeholder="Your Name" />
+          <input type="email" class="field" placeholder="Email" />
+          <textarea class="field" placeholder="Message"></textarea>
+          <button class="btn">Send</button>
+          <div class="icons">
+            <p>Follow me on</p>
+            <a href="https://instagram.com/bey___2297?r=nametag">
+              <img
+                src="https://img.icons8.com/ios/50/null/instagram-new--v1.png"
+                alt=""
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/abbey-olaniyi-438952231/">
+              <img
+                src="https://img.icons8.com/ios/50/null/linkedin-circled--v1.png"
+                alt=""
+              />
+            </a>
+            <a href="https://twitter.com/ganderricon?s=11">
+              <img
+                src="https://img.icons8.com/ios/50/null/twitter--v1.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------End Contact----------->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+      integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.149.0/three.min.js"
+      integrity="sha512-6p9lGA4Cm89KiwN1CixiOVQU2H9e13LeYoN6/Hj/qoUhtrMW5vNiqQz9Z96Z7/I8u89ghL6SPBz9na5HFVzF3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./hover.js"></script>
+    <script src="./app.js"></script>
+    <script src="./nav.js" defer></script>
+    <script src="./loader.js"></script>
+  </body>
+</html>
