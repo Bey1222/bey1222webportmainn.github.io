@@ -657,13 +657,3 @@ header{
     }
 }
 
-
-
-#pre-loader{
-    background: whitesmoke url(./img/gear2nd.gif) no-repeat center center;
-    background-size: 50%;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 1200;
-}
